@@ -35,17 +35,4 @@ public class Chair {
         this.legs = legs;
     }
 
-    public static void main(String[] args){
-        Chair chair1 = new Chair("wood", "yellow", 4);
-        Chair chair2 = new Chair("metal", "silver", 1);
-
-        Chair[] chairs = new Chair[2];
-
-        chairs[0] = chair1;
-        chairs[1] = chair2;
-
-        System.out.println(chair1.legs);
-        System.out.println(chairs[1].material);
-    }
-
 }
